@@ -1,5 +1,7 @@
 # Data Storage Finder
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20416068.svg)](https://doi.org/10.5281/zenodo.20416068)
+
 ## Overview
 
 The Data Storage Finder is a tool developed by the Open Source Program Office at Syracuse University. It aims to help faculty and students find the most appropriate data storage option based on their specific needs using a simple survey method.
