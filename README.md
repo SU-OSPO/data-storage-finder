@@ -86,6 +86,8 @@ Plugin developed and maintained by [Open Source Program Office](https://opensour
 - Cornell University's [CD-finder project](https://github.com/CU-CommunityApps/CD-finder)
 - [WordPress](https://wordpress.org/) community
 
+This project was supported as part of a grant (#[G2023-20946](https://sloan.org/grant-detail/G-2023-20946)) from the Alfred P. Sloan Foundation.
+
 ## References
 
 - [Install WordPress on Mac](https://skillcrush.com/blog/install-wordpress-mac/)
