@@ -55,7 +55,7 @@ If all steps are completed successfully, you should see the WordPress installati
 
 - Open the folder `data-storage-finder` in your local IDE. Example: Visual Studio Code
 - Navigate to /wp-content/plugins
-- Clone our custom plugin repo here 
+- Clone our custom plugin repo here
 
 ```
 git clone https://github.com/SyracuseUniversity/data-storage-finder.git
@@ -66,13 +66,12 @@ git clone https://github.com/SyracuseUniversity/data-storage-finder.git
 
 ## Development
 
-Our plugin consists of three major folders
+Our plugin consists of three major folders and a main plugin file
 
-- css - Holds the finder-style.css
-All custom styles including the media queries
-- js - Folder holds all the custom javascript, on click, log scale and table filling options.
-- templates - Has the php code for the components can are exported to create the shortcodes which can be used on the UI pages.
-- data-storage-finder.php which is the Main Plugin File
+- css - Holds finder-style.css, containing all custom styles including the media queries
+- js - Folder holds all the custom JavaScript, on click, log scale and table filling options.
+- templates - Has the PHP code for the components that are exported as shortcodes for use on the UI pages.
+- data-storage-finder.php, which is the main plugin file
     - Registers and enqueues necessary CSS and JavaScript files.
     - Defines multiple shortcodes ([modal], [questions_table], [copyright], etc.).
     - Loads external assets like Font Awesome and Syracuse University's CSS framework.
