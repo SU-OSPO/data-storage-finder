@@ -45,7 +45,7 @@
         "Availability": "High",
         "Technical Complexity": "Low",
         "Contact": "<a class=\"table-links\" href=\"https://its.syr.edu/its_service_center/\">ITS Help Desk</a> at 315-443-2677, <a class=\"table-links\" href=\"mailto:help@syr.edu\">Email Support</a>",
-        "options": ["public", "confidential", "sensitive", "private", "syracuseNetID", "inAndOutOfSU", "generalPublic", "backupCopies", "confidential", "hipaa", "YesSUSupportITS"],
+        "options": ["public", "confidential", "sensitive", "private", "syracuseNetID", "inAndOutOfSU", "generalPublic", "backupCopies", "hipaa", "YesSUSupportITS"],
         "storageLimit": 500
       },
       {
@@ -136,7 +136,7 @@
         "Durability": "Medium",
         "Availability": "High",
         "Technical Complexity": "High",
-        "Contact": "<a class=\"table-links \" href=\"https://aws.amazon.com/ebs/\">Amazon EFS</a>",
+        "Contact": "<a class=\"table-links \" href=\"https://aws.amazon.com/efs/\">Amazon EFS</a>",
         "options": ["public", "sensitive", "confidential", "private", "syracuseNetID", "inAndOutOfSU", "generalPublic", "moreThan1000Files",
         "highTransactionRates", "hipaa"],
         "storageLimit": -1
@@ -410,7 +410,7 @@
           "syracuseNetID",
           "YesSUSupportITS"
         ],
-        "storageLimit": 60
+        "storageLimit": 60000
       },
       {
         "Title": "G:/ Drive",
@@ -420,7 +420,7 @@
         "Cost": "At no cost to SU affiliates",
         "Capacity": "60TB; Inquire if more is needed",
         "Access and Collaboration": "Access is limited to authorized users with an active SU affiliation. Authorized users can have a mixture of Read+Write, and Read permissions. Contact your school specific IT department to add/remove authorized users to a given shared G:/ drive.",
-        "Data Allowed": "Allowed: Public data. Sensitive / moderate risk data, Confidential data, HIPAA-regulated data. Export-Controlled information.",
+        "Data Allowed": "- Allowed: Public data. Sensitive / moderate risk data, Confidential data, HIPAA-regulated data. <br> - Not Allowed: Export-Controlled information.",
         "Durability": "High",
         "Availability": "High",
         "Technical Complexity": "Low",
@@ -434,7 +434,7 @@
           "syracuseNetID",
           "YesSUSupportITS"
         ],
-        "storageLimit": 60
+        "storageLimit": 60000
       }
     ]
   }
