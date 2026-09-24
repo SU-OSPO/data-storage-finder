@@ -306,7 +306,7 @@
         "Durability": "High",
         "Availability": "High",
         "Technical Complexity": "Low",
-        "Contact": "<a class=\"table-links\" href=\"https://datadryad.org/stash\">Dryad</a>",
+        "Contact": "<a class=\"table-links\" href=\"https://datadryad.org/\">Dryad</a>",
         "options": [
           "public",
           "sensitive",

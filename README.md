@@ -92,5 +92,5 @@ This project was supported as part of a grant (#[G2023-20946](https://sloan.org/
 ## References
 
 - [Install WordPress on Mac](https://skillcrush.com/blog/install-wordpress-mac/)
-- [WordPress Codex](https://codex.wordpress.org/)
+- [WordPress Developer Resources](https://developer.wordpress.org/)
 - [Syracuse University](https://www.syracuse.edu/)
