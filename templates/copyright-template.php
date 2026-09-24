@@ -13,7 +13,7 @@
             </p>
             <p class="about-description">This project is supported in part by the Alfred P.
                 Sloan Foundation through Grant Number <a
-                    href="https://sloan.org/grant-detail/G-2023-20946">[G-2023-20946]</a>"</p>
+                    href="https://sloan.org/grant-detail/G-2023-20946">[G-2023-20946]</a></p>
         </div>
     </div>
 </div>

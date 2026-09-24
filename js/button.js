@@ -245,7 +245,7 @@ function toggleTableVisibility() {
         table.style.display = 'table'; 
         banner.style.display = 'block'
         tableContainer.style.display = 'block';
-        servicesText.textContent = `${selectedCards.length} Services Selected`
+        servicesText.textContent = `${selectedCards.length} ${selectedCards.length === 1 ? 'Service' : 'Services'} Selected`
         nav.style.display = 'flex';
     } else {
         table.style.display = 'none';
