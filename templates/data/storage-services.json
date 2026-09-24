@@ -340,29 +340,6 @@
         "storageLimit": 20
       },
       {
-        "Title": "OSF.io",
-        "Intro": "Open platform to support research and enable collaboration.",
-        "Description": "OSF.io, or the Open Science Framework, is an online platform that enables researchers to transparently plan, collect, analyze, and share their work throughout the entire research life cycle.",
-        "Example Use": "Publishing datasets, code, or preprints with DOI assignment.",
-        "Cost": "Free",
-        "Capacity": "Capacity of 5 GB for private projects and 50 GB for public projects. File size limit of 5 GB. Can integrate with other storage management services (e.g., Amazon S3, Dropbox, Github, OneDrive).",
-        "Access and Collaboration": "Public projects are open access with optional DOI. Collaborators and contributors can be added for projects, registrations, or preprints. Each contributor has their own permission level (i.e., Administrator, Read+Write, and Read), each with different responsibilities and privileges.",
-        "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br>- Not Allowed: FERPA-protected data, confidential or restricted/high-risk data, HIPAA-regulated data, Export-Controlled information.",
-        "Durability": "High",
-        "Availability": "High",
-        "Technical Complexity": "Low",
-        "Contact": "<a class=\"table-links\" href=\"https://osf.io/\">OSF.io</a>",
-        "options": [
-          "public",
-          "sensitive",
-          "private",
-          "generalPublic",
-          "inAndOutOfSU",
-          "DOIYes"
-        ],
-        "storageLimit": 50
-      },
-      {
         "Title": "QDR",
         "Intro": "Archive for storing and sharing digital data (and accompanying documentation)",
         "Description": "The Qualitative Data Repository (QDR) is a dedicated archive for storing and sharing digital data (and accompanying documentation) generated or collected through qualitative and multi-method research in the social sciences and related disciplines. QDR provides leadership and training in—and works to develop and publicize common standards and practices for—managing, archiving, sharing, reusing, and citing qualitative data. Through these efforts we aim to expand and improve the use of qualitative data in the production and evaluation of research, and in teaching.",
