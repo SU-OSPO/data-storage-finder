@@ -6,7 +6,7 @@
  * @package     DataStorageFinder
  * @author      Open Source Program Office at Syracuse University
  * @copyright   2025 Open Source Program Office at Syracuse University
- * @license     GPL-2.0-or-later
+ * @license     GPL-3.0-or-later
  *
  * @wordpress-plugin
  * Plugin Name: Data Storage Finder
@@ -15,7 +15,8 @@
  * Version: 1.0
  * Author: Open Source Program Office at Syracuse University
  * Author URI: https://opensource.syracuse.edu/
- * License: GPL v2 or later
+ * License: GPL v3 or later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 // Prevent direct access to this file

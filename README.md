@@ -58,7 +58,7 @@ If all steps are completed successfully, you should see the WordPress installati
 - Clone our custom plugin repo here
 
 ```
-git clone https://github.com/SyracuseUniversity/data-storage-finder.git
+git clone https://github.com/SU-OSPO/data-storage-finder.git
 ```
 
 - Go to the WordPress admin dashboard → Plugins and find your custom plugin.
