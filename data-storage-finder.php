@@ -12,7 +12,7 @@
  * Plugin Name: Data Storage Finder
  * Plugin URI: 
  * Description: Handles all CSS and JavaScript assets from the Finder theme
- * Version: 1.0
+ * Version: 1.1
  * Author: Open Source Program Office at Syracuse University
  * Author URI: https://opensource.syracuse.edu/
  * License: GPL v2 or later
@@ -182,3 +182,15 @@ $data_storage_finder = new data_storage_finder();
 // Register activation and deactivation hooks
 register_activation_hook(__FILE__, array('data_storage_finder', 'activate'));
 register_deactivation_hook(__FILE__, array('data_storage_finder', 'deactivate'));
+
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/SU-OSPO/data-storage-finder',
+	__FILE__,
+	'unique-plugin-or-theme-slug'
+);
+
+// Get latest release
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
