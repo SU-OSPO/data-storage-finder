@@ -12,7 +12,7 @@
  * Plugin Name: Data Storage Finder
  * Plugin URI: 
  * Description: Handles all CSS and JavaScript assets from the Finder theme
- * Version: 1.1
+ * Version: 1.0
  * Author: Open Source Program Office at Syracuse University
  * Author URI: https://opensource.syracuse.edu/
  * License: GPL v2 or later
