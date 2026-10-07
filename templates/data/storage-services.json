@@ -144,7 +144,7 @@
       {
         "Title": "AWS Glacier",
         "Intro": "Cloud-based archival storage",
-        "Description": "Amazon S3 Glacier is a set of secure, durable, and extremely low-cost cloud storage classes for data archiving and long-term backup. S3 Glacier provides three retrieval options - Expedited, Standard, and Bulk - ranging from minutes to hours depending on the storage class.",
+        "Description": "Amazon S3 Glacier is a set of secure, durable, and extremely low-cost cloud storage classes for data archiving and long-term backup. Instant Retrieval serves archives immediately. Flexible Retrieval restores them in 1-5 minutes (Expedited), 3-5 hours (Standard), or 5-12 hours (Bulk). Deep Archive, the lowest-cost class, restores within 12 hours (Standard) or 48 hours (Bulk); Expedited is not available for it.",
         "Example Use": "Storing an archival copy of a static dataset when the actively used, primary copy is stored elsewhere.",
         "Cost": "< $500/TB/Year",
         "Capacity": "- 5 TB file size limit. <br>- No overall limit (costs incurred). <br>- No practical limit to the number of files.",
@@ -314,7 +314,7 @@
           "inAndOutOfSU",
           "DOIYes"
         ],
-        "storageLimit": -1
+        "storageLimit": 2000
       },
       {
         "Title": "Figshare",
