@@ -9,7 +9,7 @@
         "Capacity": "- Active Students & Staff: 10 GB <br>- Active Faculty & Instructors: 60 GB <br>- Shared Drives: 20 GB Quota (requests for exceptions can be raised)",
         "Access and Collaboration": "Files and folders within My Drive can be shared ad-hoc for collaboration with SU and non-SU users. Owner controls sharing options, including edit and view rights; file and folder-level controls are available.",
         "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br> - Not Allowed: Confidential or restricted/high-risk data, HIPAA-regulated data, Export-Controlled information. <br> - Restricted: Academic data. Research and bulk data is strongly discouraged.",
-        "Durability": "High. Google built-in backup and recycle bin policies apply. Data restore can be admin-initiated for 20 days, recycle bin is user-controlled with 20-day retention.",
+        "Durability": "High. Google built-in backup and recycle bin policies apply. Data restore can be admin-initiated for 25 days after the trash is emptied, recycle bin is user-controlled with 30-day retention.",
         "Availability": "High. Google Workspace is a cloud application. There are no guarantees of uptime and availability from SU IT.",
         "Technical Complexity": "Low. Google use model is ease of use and collaboration.",
         "Contact": "ITS Core Infrastructure CDI Application team. <a class=\"table-links\" href=\"mailto:aascsys@su-jsm.atlassian.net\">Contact Support</a>",
@@ -22,7 +22,7 @@
         "Description": "A platform built on Git that provides hosting for repositories, collaborative tools, issue tracking, CI/CD integration, and project management.",
         "Example Use": "Hosting and collaborating on open-source or private software projects, tracking changes in code, and managing issues.",
         "Cost": "Free for faculty and students.",
-        "Capacity": "Default limits apply, no process in place to purchase additional quota or higher limits. <a class=\"table-links\" href=\"https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage\">GitHub Large File Storage</a>",
+        "Capacity": "GitHub recommends repositories stay under 1 GB and strongly recommends staying under 5 GB. Individual files over 50 MiB raise a warning and files over 100 MiB are blocked; larger files can be tracked with <a class=\"table-links\" href=\"https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage\">Git Large File Storage</a>. No process in place to purchase additional quota or higher limits. <a class=\"table-links\" href=\"https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github\">About large files on GitHub</a>",
         "Access and Collaboration": "Repositories can be made public or private. Shared access to users onboarded on the SU GitHub Enterprise account.",
         "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br>- Not Allowed: Confidential or restricted/high-risk data, HIPAA-regulated data, Export-Controlled information. <br>- Restricted: Academic data. Research and bulk data is strongly discouraged.",
         "Durability": "High",
@@ -120,7 +120,8 @@
           "backupCopies",
           "replicateCopies",
           "moreThan1000Files",
-          "highTransactionRates"
+          "highTransactionRates",
+          "hipaa"
         ],
         "storageLimit": -1
       },
@@ -255,7 +256,7 @@
         "Cost": "Pay-as-you-go service starts at $7.99/TB/Month.",
         "Capacity": "Unlimited, scalable cloud storage. A 1 TB monthly minimum charge and a 90-day minimum storage duration apply to pay-as-you-go accounts.",
         "Access and Collaboration": "Data can be accessed through S3-compatible APIs, integrated with applications, and shared securely.",
-        "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br>- Allowed with special configuration: FERPA-protected data, confidential or restricted/high-risk data. <br>- Not Allowed: HIPAA-regulated data, Export-Controlled information.",
+        "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br>- Allowed with special configuration: FERPA-protected data, confidential or restricted/high-risk data, HIPAA-regulated data (requires a signed Business Associate Agreement with Wasabi before any PHI is stored) <a class=\"table-links\" href=\"https://wasabi.com/legal/business-associate-agreement\">Wasabi Business Associate Agreement</a>. <br>- Not Allowed: Export-Controlled information.",
         "Durability": "High",
         "Availability": "High",
         "Technical Complexity": "Medium",
@@ -268,7 +269,8 @@
           "replicateCopies",
           "highTransactionRates",
           "generalPublic",
-          "confidential"
+          "confidential",
+          "hipaa"
         ],
         "storageLimit": -1
       },
@@ -322,7 +324,7 @@
         "Description": "Figshare is a web-based repository designed to enable researchers to store, share, and disseminate their research outputs, including datasets, figures, videos, and other types of multimedia. It provides an open-access platform where researchers can upload and share a wide range of research materials to make them publicly available.",
         "Example Use": "Sharing datasets, figures, or media files with persistent identifiers.",
         "Cost": "Free plan provides 20 GB of storage per user. Additional storage can be purchased <a class=\"table-links\" href=\"https://info.figshare.com/figshare-plus/\">through Figshare Plus</a>.",
-        "Capacity": "Free plan provides 20 GB of private storage per user; public storage is unlimited once items are published. Allows for up to 500 items, with a DOI (Digital Object Identifier) for each.",
+        "Capacity": "Unlimited public storage once items are published. The free plan provides 20 GB of private storage per user for work held back before publication; more private storage can be purchased through Figshare Plus. Up to 500 items per account, each with its own DOI (Digital Object Identifier).",
         "Access and Collaboration": "Open access with DOI for citation. Restricted access for selected individuals or groups. Share via links or create groups.",
         "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br>- Not Allowed: FERPA-protected data, confidential or restricted/high-risk data, HIPAA-regulated data, Export-Controlled information.",
         "Durability": "High",
@@ -337,7 +339,7 @@
           "inAndOutOfSU",
           "DOIYes"
         ],
-        "storageLimit": 20
+        "storageLimit": -1
       },
       {
         "Title": "OSF.io",
@@ -395,8 +397,8 @@
         "Description": "Storage exclusively for the SU research computing clusters. This directory is ideal for storing datasets, scripts, and other files necessary for computational workflows.",
         "Example Use": "Storage for research data computed on the OrangeGrid or the Zest clusters.",
         "Cost": "At no cost to SU affiliates",
-        "Capacity": "60 TB; Inquire if more is needed",
-        "Access and Collaboration": "Public",
+        "Capacity": "No per-user quota is published. Contact Research Computing to discuss storage options for multi-terabyte datasets. <a class=\"table-links\" href=\"https://docs.syr.edu/ResearchComputing/resources/orangegrid-specifications.html#storage\">OrangeGrid storage specifications</a>",
+        "Access and Collaboration": "Private to the owning NetID. The home directory is available on the submit and login nodes, and is mounted on compute nodes while a job runs.",
         "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br>- Not Allowed: Confidential data, HIPAA-regulated data, Export-Controlled information.",
         "Durability": "High",
         "Availability": "High",
@@ -405,12 +407,10 @@
         "options": [
           "public",
           "sensitive",
-          "generalPublic",
-          "inAndOutOfSU",
-          "syracuseNetID",
+          "private",
           "YesSUSupportITS"
         ],
-        "storageLimit": 60000
+        "storageLimit": -1
       },
       {
         "Title": "G:/ Drive",
