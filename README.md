@@ -66,12 +66,13 @@ git clone https://github.com/SyracuseUniversity/data-storage-finder.git
 
 ## Development
 
-Our plugin consists of three major folders
+Our plugin consists of four major folders
 
 - css - Holds the finder-style.css
 All custom styles including the media queries
 - js - Folder holds all the custom javascript, on click, log scale and table filling options.
 - templates - Has the php code for the components can are exported to create the shortcodes which can be used on the UI pages.
+- plugin-update-checker - Module that manages update checking via GitHub releases
 - data-storage-finder.php which is the Main Plugin File
     - Registers and enqueues necessary CSS and JavaScript files.
     - Defines multiple shortcodes ([modal], [questions_table], [copyright], etc.).
