@@ -10,7 +10,7 @@
         "Access and Collaboration": "Files and folders within My Drive can be shared ad-hoc for collaboration with SU and non-SU users. Owner controls sharing options, including edit and view rights; file and folder-level controls are available.",
         "Data Allowed": "- Allowed: Public data, sensitive/moderate risk data. <br> - Not Allowed: Confidential or restricted/high-risk data, HIPAA-regulated data, Export-Controlled information. <br> - Restricted: Academic data. Research and bulk data is strongly discouraged.",
         "Durability": "High. Google built-in backup and recycle bin policies apply. Data restore can be admin-initiated for 25 days after the trash is emptied, recycle bin is user-controlled with 30-day retention.",
-        "Availability": "Medium. Google runs redundant infrastructure, but no replication or failover options are configurable by the user.",
+        "Availability": "Medium. Google runs redundant infrastructure, but no replication or failover options are configurable by the user. There are no guarantees of uptime and availability from SU IT.",
         "Technical Complexity": "Low. Google use model is ease of use and collaboration.",
         "Contact": "ITS Core Infrastructure CDI Application team. <a class=\"table-links\" href=\"mailto:aascsys@su-jsm.atlassian.net\">Contact Support</a>",
         "options": ["public", "sensitive", "private", "syracuseNetID", "inAndOutOfSU", "generalPublic", "backupCopies", "YesSUSupportITS"],
