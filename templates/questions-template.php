@@ -39,7 +39,7 @@
                             <input class='form-check-input data-option' type='checkbox' value='{$option['id']}' id='{$option['id']}'
                                 tabindex='0'
                                 " . ($radioClass ? "onclick=\"deselectOtherCheckboxes(this)" : "") .
-                        ($radioClass && $option['id'] == 'generalPublic' ? "; handleGeneralPublic(this)" : "") . ($radioClass && $option['id'] == 'generalPublic' ? "; handleGeneralPublic(this)" : "") .
+                        ($radioClass && $option['id'] == 'generalPublic' ? "; handleGeneralPublic(this)" : "") .
                         ($radioClass ? "\"" : "") . ">
                             <label class='form-check-label' for='{$option['id']}'>
                                 {$option['label']}
@@ -52,7 +52,7 @@
                             <p class='text-orange-dark'>Do you need a DOI?</p>
                             <div class='form-check margin-bottom-2 text-blue radio-like'>
                                 <input class='form-check-input data-option' type='checkbox' value='DOIYes' id='DOIYes' 
-                                    tabindex='0''>
+                                    tabindex='0'>
                                 <label class='form-check-label' for='DOIYes'>Yes</label>
                             </div>
                         </div>";
@@ -60,11 +60,11 @@
 
                 if ($section['id'] == 6) {
                     echo "<div style='display: flex; align-items: center; position: relative;' id='log-slider-container'>
-                            <span class='log-slider-label' style='margin-right: 10px;'> ≤ 1GB</span>
+                            <span class='log-slider-label' style='margin-right: 10px;'> ≤ 1 GB</span>
                             <input id='log-slider' type='range' min='0' max='4' step='any' value='0' 
-                                oninput='updateValue()' aria-label='Select storage size from 1GB to 10TB' 
+                                oninput='updateValue()' aria-label='Select storage size from 1 GB to 10 TB' 
                                 tabindex='0' style='flex: 1; margin: 0 10px;'/>
-                            <span class='log-slider-label' style='margin-left: 10px;'> ≥ 10TB</span>
+                            <span class='log-slider-label' style='margin-left: 10px;'> ≥ 10 TB</span>
                         </div>
                         <div class='value-log-slider'>
                             <label for='slider-value'>Value:</label>

@@ -55,10 +55,10 @@ If all steps are completed successfully, you should see the WordPress installati
 
 - Open the folder `data-storage-finder` in your local IDE. Example: Visual Studio Code
 - Navigate to /wp-content/plugins
-- Clone our custom plugin repo here 
+- Clone our custom plugin repo here
 
 ```
-git clone https://github.com/SyracuseUniversity/data-storage-finder.git
+git clone https://github.com/SU-OSPO/data-storage-finder.git
 ```
 
 - Go to the WordPress admin dashboard → Plugins and find your custom plugin.
@@ -66,7 +66,7 @@ git clone https://github.com/SyracuseUniversity/data-storage-finder.git
 
 ## Development
 
-Our plugin consists of four major folders
+Our plugin consists of four major folders and a main plugin file
 
 - css - Holds the finder-style.css
 All custom styles including the media queries
@@ -94,5 +94,5 @@ This project was supported as part of a grant (#[G2023-20946](https://sloan.org/
 ## References
 
 - [Install WordPress on Mac](https://skillcrush.com/blog/install-wordpress-mac/)
-- [WordPress Codex](https://codex.wordpress.org/)
+- [WordPress Developer Resources](https://developer.wordpress.org/)
 - [Syracuse University](https://www.syracuse.edu/)
