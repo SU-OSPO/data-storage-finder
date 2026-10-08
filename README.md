@@ -66,11 +66,12 @@ git clone https://github.com/SU-OSPO/data-storage-finder.git
 
 ## Development
 
-Our plugin consists of three major folders and a main plugin file
+Our plugin consists of four major folders and a main plugin file
 
 - css - Holds finder-style.css, containing all custom styles including the media queries
 - js - Folder holds all the custom JavaScript, on click, log scale and table filling options.
 - templates - Has the PHP code for the components that are exported as shortcodes for use on the UI pages.
+- plugin-update-checker - Module that manages update checking via GitHub releases
 - data-storage-finder.php, which is the main plugin file
     - Registers and enqueues necessary CSS and JavaScript files.
     - Defines multiple shortcodes ([modal], [questions_table], [copyright], etc.).

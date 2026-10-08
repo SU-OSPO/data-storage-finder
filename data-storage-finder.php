@@ -183,3 +183,15 @@ $data_storage_finder = new data_storage_finder();
 // Register activation and deactivation hooks
 register_activation_hook(__FILE__, array('data_storage_finder', 'activate'));
 register_deactivation_hook(__FILE__, array('data_storage_finder', 'deactivate'));
+
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/SU-OSPO/data-storage-finder',
+	__FILE__,
+	'unique-plugin-or-theme-slug'
+);
+
+// Get latest release
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
