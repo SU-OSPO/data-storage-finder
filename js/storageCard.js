@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
     /**
      * Function to filter cards based on the questions selected. 
      * Matches the value of the slider with the storage-limit of each card.
+     * Both are in GB; a storage-limit of -1 means no limit.
      * 
      * data-attribute condition-qualified and storage-qualified used to set 
      * whether a card is qualified to be display at the grid
